@@ -424,7 +424,7 @@ namespace Passaparola
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            linkLabel1.Text = "Sonraki";     // Başla butonunun cevapla olabilmesi için yapılır.
+            linkLabel1.Text = "Sonraki";     // Başla butonunun sonraki olabilmesi için yapılır.
             soruNo++;
             this.Text = soruNo.ToString();   //Formun solt üst köşesi
 
